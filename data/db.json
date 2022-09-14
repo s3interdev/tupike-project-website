@@ -1,46 +1,6 @@
 {
 	"recipes": [
 		{
-			"title": "Easy classic lasagne",
-			"ingredients": [
-				"1 tbsp olive oil",
-				"2 rashers smoked streaky bacon",
-				"1 onion , finely chopped",
-				"1 celery stick, finely chopped",
-				"1 medium carrot , grated",
-				"2 garlic cloves , finely chopped",
-				"500g beef mince",
-				"1 tbsp tomato purée",
-				"2 x 400g cans chopped tomatoes",
-				"1 tbsp clear honey",
-				"500g pack fresh egg lasagne sheets",
-				"400ml crème fraîche",
-				"125g ball mozzarella , roughly torn",
-				"50g freshly grated parmesan",
-				"large handful basil leaves , torn (optional)"
-			],
-			"method": "STEP 1\nHeat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over medium heat for 5 mins, stirring occasionally, until softened.\n\nSTEP 2\nAdd the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over.\n\nSTEP 3\nStir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables. Tip in the chopped tomatoes. Fill each can half full with water to rinse any tomatoes left in the can and add to the pan. Add the honey and season to taste. Simmer for 20 mins.\n\nSTEP 4\nHeat oven to 200C/180C fan/gas 6. To assemble the lasagne, spoon a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base. Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta. Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta.\n\nSTEP 5\nPut the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce. Pour this over the top of the pasta, then top with the mozzarella. Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling. Serve scattered with basil, if you like.",
-			"cookingTime": "60 minutes",
-			"id": "C2UxtdA"
-		},
-		{
-			"title": "Dorset apple traybake",
-			"ingredients": [
-				"225g butter, softened, plus extra for the tin",
-				"450g cooking apples (such as Bramley)",
-				"½ lemon, juiced",
-				"280g golden caster sugar",
-				"4 eggs",
-				"2 tsp vanilla extract",
-				"350g self-raising flour",
-				"2 tsp baking powder",
-				"demerara sugar, to sprinkle"
-			],
-			"method": "STEP 1\nHeat the oven to 180C/160C fan/gas 4. Butter and line a rectangular baking tin (approx 27 x 20cm) with baking parchment. Peel, core and thinly slice the apples, then squeeze over the lemon juice. Set aside.\n\nSTEP 2\nPut the butter, caster sugar, eggs, vanilla, flour and baking powder into a large bowl and mix well until smooth. Spread half the mixture into the prepared tin. Arrange half the apples over the top of the mixture, then repeat the layers. Sprinkle over the demerara sugar.\n\nSTEP 3\nBake for 45-50 mins until golden and springy to the touch. Leave to cool for 10 mins, then turn out of the tin and remove the paper. Cut into bars or squares.",
-			"cookingTime": "50 minutes",
-			"id": "tOvNDJn"
-		},
-		{
 			"title": "Pork medallions",
 			"ingredients": [
 				"1 tbsp olive oil",
