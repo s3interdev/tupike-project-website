@@ -24,7 +24,7 @@ const Recipe = () => {
 					setRecipe(doc.data());
 				} else {
 					setIsPending(false);
-					setError('Could not find the selected recipe');
+					setError('Could not find the recipe');
 				}
 			});
 	}, [id]);
