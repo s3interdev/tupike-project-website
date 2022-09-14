@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { projectDB } from '../../firebase/config';
 import { useTheme } from '../../hooks/useTheme';
 
@@ -10,6 +10,8 @@ const Recipe = () => {
 	const [isPending, setIsPending] = useState(false);
 	const [error, setError] = useState(null);
 	const [recipe, setRecipe] = useState(null);
+
+	const navigate = useNavigate();
 
 	useEffect(() => {
 		setIsPending(true);
@@ -29,6 +31,17 @@ const Recipe = () => {
 			});
 	}, [id]);
 
+	const handleClick = async () => {
+		try {
+			await projectDB.collection('recipes').doc(id).update({
+				title: 'Completely Different Title',
+			});
+			navigate('/');
+		} catch (err) {
+			console.log(err);
+		}
+	};
+
 	return (
 		<div className={`recipe ${mode}`}>
 			{error && <p className="error">{error}</p>}
@@ -45,6 +58,9 @@ const Recipe = () => {
 						))}
 					</ul>
 					<p className="method">{recipe.method}</p>
+					<button onClick={handleClick} className="btn">
+						Simple Update
+					</button>
 				</>
 			)}
 		</div>
