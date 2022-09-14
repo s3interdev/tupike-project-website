@@ -14,11 +14,10 @@ const Recipe = () => {
 	useEffect(() => {
 		setIsPending(true);
 
-		projectDB
+		const unsubscribe = projectDB
 			.collection('recipes')
 			.doc(id)
-			.get()
-			.then((doc) => {
+			.onSnapshot((doc) => {
 				if (doc.exists) {
 					setIsPending(false);
 					setRecipe(doc.data());
@@ -27,7 +26,15 @@ const Recipe = () => {
 					setError('Could not find the recipe');
 				}
 			});
+
+		return () => unsubscribe();
 	}, [id]);
+
+	const handleClick = () => {
+		projectDB.collection('recipes').doc(id).update({
+			title: 'Completely Different Title',
+		});
+	};
 
 	return (
 		<div className={`recipe ${mode}`}>
@@ -45,6 +52,9 @@ const Recipe = () => {
 						))}
 					</ul>
 					<p className="method">{recipe.method}</p>
+					<button onClick={handleClick} className="btn">
+						Simple Update
+					</button>
 				</>
 			)}
 		</div>
