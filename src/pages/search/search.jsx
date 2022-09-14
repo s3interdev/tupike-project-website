@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router-dom';
-import { useFetch } from '../../hooks/useFetch';
 import RecipeList from '../../components/recipe-list';
 
 const Search = () => {

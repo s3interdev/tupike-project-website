@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { projectDB } from '../../firebase/config';
 import { useTheme } from '../../hooks/useTheme';
 
@@ -11,16 +11,13 @@ const Recipe = () => {
 	const [error, setError] = useState(null);
 	const [recipe, setRecipe] = useState(null);
 
-	const navigate = useNavigate();
-
 	useEffect(() => {
 		setIsPending(true);
 
-		projectDB
+		const unsubscribe = projectDB
 			.collection('recipes')
 			.doc(id)
-			.get()
-			.then((doc) => {
+			.onSnapshot((doc) => {
 				if (doc.exists) {
 					setIsPending(false);
 					setRecipe(doc.data());
@@ -29,17 +26,14 @@ const Recipe = () => {
 					setError('Could not find the recipe');
 				}
 			});
+
+		return () => unsubscribe();
 	}, [id]);
 
-	const handleClick = async () => {
-		try {
-			await projectDB.collection('recipes').doc(id).update({
-				title: 'Completely Different Title',
-			});
-			navigate('/');
-		} catch (err) {
-			console.log(err);
-		}
+	const handleClick = () => {
+		projectDB.collection('recipes').doc(id).update({
+			title: 'Completely Different Title',
+		});
 	};
 
 	return (
