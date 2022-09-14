@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	body,
+	#root {
+		@apply h-full;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply m-0;
+	}
+
+	body {
+		@apply m-0 bg-lightGray font-poppins text-xl text-darkCharcoal antialiased;
+	}
+}
+
+@layer components {
+	input,
+	textarea {
+		@apply box-border block min-w-full border-[1px] border-none border-lightGray bg-white p-2 text-lg text-darkCharcoal;
+	}
+
+	.page-title {
+		@apply my-10 mx-auto text-center text-2xl font-bold text-darkCharcoal;
+	}
+
+	.loading,
+	.error {
+		@apply my-10 mx-auto text-center;
+	}
+
+	.app {
+		@apply min-h-full;
+	}
+
+	.app.dark {
+		@apply bg-darkCharcoal;
+	}
+
+	.navbar {
+		@apply bg-purple p-5 text-white;
+	}
+
+	.navbar nav {
+		@apply my-0 mx-auto flex max-w-[1200px] items-center;
+	}
+
+	.navbar a.brand {
+		@apply mr-auto text-4xl font-bold text-white no-underline;
+	}
+
+	.navbar a:last-child {
+		@apply ml-10 rounded border-[1px] border-solid border-white p-2 text-white no-underline;
+	}
+
+	.navbar a:last-child:hover {
+		@apply bg-white text-darkCharcoal;
+	}
+
+	.home {
+		@apply my-[60px] mx-auto max-w-[1200px];
+	}
+
+	.recipe-list {
+		@apply my-10 mx-auto grid max-w-[1200px] grid-cols-3 gap-10;
+	}
+
+	.recipe-list .card {
+		@apply relative rounded-md bg-white p-5 text-darkCharcoal shadow-md shadow-darkCharcoal transition-all duration-300 ease-in;
+	}
+
+	.recipe-list .card:hover {
+		@apply rotate-3;
+	}
+
+	.recipe-list .card h3 {
+		@apply mb-2 text-lightCharcoal;
+	}
+
+	.recipe-list .card p {
+		@apply text-base text-darkGray;
+	}
+
+	.recipe-list .card div {
+		@apply my-5 mx-0 text-xs leading-6 text-darkGray;
+	}
+
+	.recipe-list .card a {
+		@apply mx-auto mt-5 mb-0 block w-[120px] rounded bg-gray p-2 text-center text-base text-darkGray no-underline;
+	}
+
+	.recipe {
+		@apply my-10 mx-auto box-border max-w-[1200px] bg-white p-10 text-center;
+	}
+
+	.recipe ul {
+		@apply mt-0 flex flex-wrap justify-center p-0;
+	}
+
+	.recipe li {
+		@apply mr-[10px] list-none text-darkGray;
+	}
+
+	.recipe li::after {
+		@apply content-[','];
+	}
+
+	.recipe li:last-child::after {
+		@apply content-['.'];
+	}
+
+	.recipe.dark {
+		@apply bg-lightCharcoal text-gray;
+	}
+
+	.recipe-list .card.dark {
+		@apply bg-lightCharcoal;
+	}
+
+	.recipe-list .card.dark p,
+	.recipe-list .card.dark h3,
+	.recipe-list .card.dark div {
+		@apply text-gray;
+	}
+
+	.method {
+		@apply m-2 text-left leading-7;
+	}
+
+	.create {
+		@apply my-[60px] mx-auto max-w-[480px] text-lightCharcoal;
+	}
+
+	.create label span {
+		@apply mx-0 mt-[30px] mb-[10px] block;
+	}
+
+	.create p {
+		@apply mt-[10px] text-sm;
+	}
+
+	.create button {
+		@apply my-[30px] mx-auto block w-[100px] cursor-pointer rounded border-0 bg-purple py-2 px-5 text-base text-white no-underline;
+	}
+
+	.ingredients {
+		@apply flex items-center;
+	}
+
+	.ingredients button {
+		@apply mt-0 mr-0 mb-0 ml-[10px];
+	}
+
+	.search-bar form {
+		@apply flex items-center;
+	}
+
+	.search-bar input {
+		@apply ml-[10px];
+	}
+
+	.theme-selector {
+		@apply my-5 mx-auto flex max-w-[1200px] items-center justify-end;
+	}
+
+	.theme-buttons div {
+		@apply ml-[15px] inline-block h-5 w-5 cursor-pointer rounded-full;
+	}
+
+	.mode-toggle {
+		@apply mr-auto;
+	}
+
+	.mode-toggle img {
+		@apply h-6 w-6 cursor-pointer;
+	}
+
+	.dark .page-title,
+	.dark .loading,
+	.dark .error,
+	.dark label,
+	.dark p {
+		@apply text-gray;
+	}
+}

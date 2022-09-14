@@ -1,0 +1,116 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Stew",
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Veggie Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomata pasata",
+        "1 Green pepper",
+        "100g Mushrooms"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Greek Salad",
+      "ingredients": [
+        "1 Onion",
+        "1 Block of Feta",
+        "Olives",
+        "Tomatoes",
+        "Olive Oil"
+      ],
+      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Easy Butter Chicken",
+      "ingredients": [
+        "500g skinless boneless chicken thighs",
+        "1 lemon, juiced",
+        "2 tsp ground cumin",
+        "2 tsp paprika",
+        "1-2 tsp hot chilli powder",
+        "200g natural yogurt"
+      ],
+      "method": "STEP 1\nIn a medium bowl, mix all the marinade ingredients with some seasoning. Chop the chicken into bite-sized pieces and toss with the marinade. Cover and chill in the fridge for 1 hr or overnight.\n\nSTEP 2\nIn a large, heavy saucepan, heat the oil. Add the onion, garlic, green chilli, ginger and some seasoning. Fry on medium heat for 10 mins or until soft.\n\nSTEP 3\nAdd the spices with the tomato purée, cook for a further 2 mins until fragrant, then add the stock and marinated chicken. Cook for 15 mins, then add any remaining marinade left in the bowl. Simmer for 5 mins, then sprinkle with the toasted almonds. Serve with rice, naan bread, chutney, coriander and lime wedges, if you like.",
+      "cookingTime": "35 minutes",
+      "id": "Spf7DOh"
+    },
+    {
+      "title": "Easy classic lasagne",
+      "ingredients": [
+        "1 tbsp olive oil",
+        "2 rashers smoked streaky bacon",
+        "1 onion , finely chopped",
+        "1 celery stick, finely chopped",
+        "1 medium carrot , grated",
+        "2 garlic cloves , finely chopped",
+        "500g beef mince",
+        "1 tbsp tomato purée",
+        "2 x 400g cans chopped tomatoes",
+        "1 tbsp clear honey",
+        "500g pack fresh egg lasagne sheets",
+        "400ml crème fraîche",
+        "125g ball mozzarella , roughly torn",
+        "50g freshly grated parmesan",
+        "large handful basil leaves , torn (optional)"
+      ],
+      "method": "STEP 1\nHeat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over medium heat for 5 mins, stirring occasionally, until softened.\n\nSTEP 2\nAdd the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over.\n\nSTEP 3\nStir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables. Tip in the chopped tomatoes. Fill each can half full with water to rinse any tomatoes left in the can and add to the pan. Add the honey and season to taste. Simmer for 20 mins.\n\nSTEP 4\nHeat oven to 200C/180C fan/gas 6. To assemble the lasagne, spoon a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base. Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta. Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta.\n\nSTEP 5\nPut the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce. Pour this over the top of the pasta, then top with the mozzarella. Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling. Serve scattered with basil, if you like.",
+      "cookingTime": "60 minutes",
+      "id": "C2UxtdA"
+    },
+    {
+      "title": "Dorset apple traybake",
+      "ingredients": [
+        "225g butter, softened, plus extra for the tin",
+        "450g cooking apples (such as Bramley)",
+        "½ lemon, juiced",
+        "280g golden caster sugar",
+        "4 eggs",
+        "2 tsp vanilla extract",
+        "350g self-raising flour",
+        "2 tsp baking powder",
+        "demerara sugar, to sprinkle"
+      ],
+      "method": "STEP 1\nHeat the oven to 180C/160C fan/gas 4. Butter and line a rectangular baking tin (approx 27 x 20cm) with baking parchment. Peel, core and thinly slice the apples, then squeeze over the lemon juice. Set aside.\n\nSTEP 2\nPut the butter, caster sugar, eggs, vanilla, flour and baking powder into a large bowl and mix well until smooth. Spread half the mixture into the prepared tin. Arrange half the apples over the top of the mixture, then repeat the layers. Sprinkle over the demerara sugar.\n\nSTEP 3\nBake for 45-50 mins until golden and springy to the touch. Leave to cool for 10 mins, then turn out of the tin and remove the paper. Cut into bars or squares.",
+      "cookingTime": "50 minutes",
+      "id": "tOvNDJn"
+    },
+    {
+      "title": "Pork medallions",
+      "ingredients": [
+        "1 tbsp olive oil",
+        "600g pork medallions",
+        "2 tbsp unsalted butter",
+        "2 banana shallots , thinly sliced ",
+        "250g chestnut mushrooms , sliced ",
+        "1 garlic clove , crushed",
+        "1 tbsp plain flour",
+        "100ml madeira or sherry",
+        "400ml chicken stock",
+        "4 sprigs thyme",
+        "½ tbsp wholegrain mustard",
+        "100ml double cream",
+        "mashed potato and wilted greens, to serve"
+      ],
+      "method": "STEP 1\nHeat the oil in a large non-stick frying pan and fry the pork on each side for 2-3 mins until golden brown. Set aside on a plate.\n\nSTEP 2\nMelt the butter in the pan and, when foaming, fry the shallots and mushrooms over medium heat for 10 mins. Add the garlic and cook for another 1 min. Stir through the flour and cook for another 2 mins. Whisk through the madeira and boil for 2 mins. Gradually stir through the stock until the sauce is lump free. Add the thyme and mustard and season to taste.\n\nSTEP 3\nReturn the pork to the pan and simmer uncovered for 5-7 mins or until the pork is cooked through. Stir through the cream and heat again until simmering. Serve with creamy mashed potatoes and wilted greens.",
+      "cookingTime": "30 minutes",
+      "id": "h0KUIhQ"
+    }
+  ]
+}
