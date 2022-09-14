@@ -131,6 +131,10 @@
 		@apply text-gray;
 	}
 
+	.delete {
+		@apply absolute top-[10px] right-[10px] cursor-pointer invert-0;
+	}
+
 	.method {
 		@apply m-2 text-left leading-7;
 	}
