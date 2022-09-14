@@ -10,10 +10,8 @@ const Home = () => {
 	useEffect(() => {
 		setIsPending(true);
 
-		projectDB
-			.collection('recipes')
-			.get()
-			.then((snapshot) => {
+		const unsubscribe = projectDB.collection('recipes').onSnapshot(
+			(snapshot) => {
 				if (snapshot.empty) {
 					setError('There are currently no recipes to load');
 					setIsPending(false);
@@ -26,11 +24,14 @@ const Home = () => {
 					setData(results);
 					setIsPending(false);
 				}
-			})
-			.catch((err) => {
+			},
+			(err) => {
 				setError(err.message);
 				setIsPending(false);
-			});
+			}
+		);
+
+		return () => unsubscribe();
 	}, []);
 
 	return (
