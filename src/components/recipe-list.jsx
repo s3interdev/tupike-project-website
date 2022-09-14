@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
+import { projectDB } from '../firebase/config';
+import Trashcan from '../assets/trashcan.svg';
 
 const RecipeList = ({ recipes }) => {
 	const { mode } = useTheme();
@@ -12,6 +14,10 @@ const RecipeList = ({ recipes }) => {
 		);
 	}
 
+	const handleClick = (id) => {
+		projectDB.collection('recipes').doc(id).delete();
+	};
+
 	return (
 		<div className="recipe-list">
 			{recipes.map((recipe) => (
@@ -20,6 +26,12 @@ const RecipeList = ({ recipes }) => {
 					<p>{recipe.cookingTime} to make</p>
 					<div className="line-clamp-2">{recipe.method}</div>
 					<Link to={`/recipes/${recipe.id}`}>Cook This</Link>
+					<img
+						className="delete"
+						onClick={() => handleClick(recipe.id)}
+						src={Trashcan}
+						alt="Delete Icon"
+					/>
 				</div>
 			))}
 		</div>
