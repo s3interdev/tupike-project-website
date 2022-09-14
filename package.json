@@ -1,7 +1,7 @@
 {
 	"name": "tupike-project-website",
 	"private": true,
-	"version": "0.15.9",
+	"version": "1.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
